@@ -1,0 +1,64 @@
+@value main-color: rgb(118, 134, 150);
+
+.profile {
+  width: 250px;
+  margin: 0 auto;
+  border-radius: 4px;
+  box-shadow: 0px 1px 3px 0px rgba(191, 205, 222, 0.75);
+}
+
+.description {
+  text-align: center;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.avatar {
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.tag {
+  margin-bottom: 10px;
+  color: main-color;
+}
+
+.location {
+  color: main-color;
+}
+
+.label,
+.quantity {
+  display: block;
+}
+
+.stats {
+  border-top: 1px solid rgb(228, 233, 240);
+  background-color: rgb(243, 246, 249);
+  display: flex;
+}
+
+.stats li {
+  flex: 0 0 33.333333%;
+  padding: 20px 0;
+  display: inline-block;
+  text-align: center;
+}
+
+.stats li:not(:last-child) {
+  border-right: 1px solid rgb(228, 233, 240);
+}
+
+.label {
+  color: main-color;
+  margin-bottom: 5px;
+}
+
+.quantity {
+  font-weight: bold;
+}
