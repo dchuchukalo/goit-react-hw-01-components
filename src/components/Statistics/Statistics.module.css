@@ -1,0 +1,30 @@
+.statistics {
+  width: 250px;
+  margin: 0 auto 30px auto;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.title {
+  margin: 0 0 30px 0;
+}
+
+.statList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.item {
+  padding: 10px 0;
+  width: 25%;
+}
+
+.label {
+  margin-bottom: 10px;
+}
+
+.label,
+.percentage {
+  display: block;
+}
